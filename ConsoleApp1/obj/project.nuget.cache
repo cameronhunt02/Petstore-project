@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DaFNhzS4ytm5uAqhVv8iZ7nldNnySkVjMtelrPvMvcTndK8JkPee1pzKryVQLd0oSrWb3OEAErJwHxNdrFhB0w==",
+  "dgSpecHash": "zuLjFo54Y23i4kUFD7pA65oV9+o66o2Ssnr7r7PBpESyA91HXHdzZhBuMiZRpvaJiO5ZYfrrQaihLpcy3C3MjQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore project\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -13,3 +13,18 @@ C:\Users\Cameron\Documents\Projects\Petstore project\ConsoleApp1\obj\Debug\net7.
 C:\Users\Cameron\Documents\Projects\Petstore project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
 C:\Users\Cameron\Documents\Projects\Petstore project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Cameron\Documents\Projects\Petstore project\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.exe
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.deps.json
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.dll
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\bin\Debug\net7.0\ConsoleApp1.pdb
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.dll
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\refint\ConsoleApp1.dll
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.pdb
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Cameron\Documents\Projects\Petstore_project\ConsoleApp1\obj\Debug\net7.0\ref\ConsoleApp1.dll

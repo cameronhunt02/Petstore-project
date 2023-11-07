@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\PetStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\PetStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\ConsoleApp1.csproj",
-        "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\PetStore.csproj",
+        "projectName": "PetStore",
+        "projectPath": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\PetStore.csproj",
         "packagesPath": "C:\\Users\\Cameron\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Cameron\\Documents\\Projects\\Petstore_project\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
