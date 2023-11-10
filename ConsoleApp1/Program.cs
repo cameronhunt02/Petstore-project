@@ -1,42 +1,49 @@
 ﻿using System.Text.Json;
 using System.Collections.Generic;
+using System;
 
 var productLogic = new ProductLogic();
 
 
-Console.WriteLine("Press 1 to purchase Cat food");
-Console.WriteLine("Press 2 to search for a dog leash");
+Console.WriteLine("Press 3 to purchase Cat food");
+Console.WriteLine("Press 4 to search for a dog leash");
 Console.WriteLine("Type exit to quit");
+
 string userInput = Console.ReadLine().ToLower();
 
-while (userInput.ToLower() != "exit")
+ProductLogic logic = new ProductLogic();
+Product product = new Product();
+logic.AddProduct(product);
+
+if (userInput.ToLower() != "exit")
 {
-    if (userInput == "1")
+    if (userInput == "3")
     {
-        CatFood item = new CatFood();
+        CatFood food = new CatFood();
         Console.WriteLine("Press 1 for Cat Food or 2 Kitten food");
         string answer = Console.ReadLine();
         if (answer == "1")
         {
-            item.KittenFood = false;
-            
+            food.KittenFood = false;
+
         }
-        else if(answer == "2")
+        else if (answer == "2")
         {
-                item.KittenFood = true;
-               
-            
+            food.KittenFood = true;
+
+
         }
         Console.WriteLine("How many pounds do you need?");
         double weight = Double.Parse(Console.ReadLine());
         Console.WriteLine($"You need {weight} pounds of food, someone has a hungry kitty!");
-        item.WeightPounds = weight;
-        
-        Console.WriteLine("You have added a product!");
-        Console.WriteLine(JsonSerializer.Serialize(item));
+        food.WeightPounds = weight;
+
+        Console.WriteLine(JsonSerializer.Serialize(food));
+
 
     }
-    else if (userInput == "2")
+
+    if (userInput == "4")
     {
         var DogLeash1 = new DogLeash();
 
@@ -48,9 +55,6 @@ while (userInput.ToLower() != "exit")
         Console.Write("Enter the length in inches: ");
         DogLeash1.LengthInches = int.Parse(Console.ReadLine());
 
-        Console.Write("Enter the name of the leash: ");
-        DogLeash1.Name = Console.ReadLine();
-
         Console.Write("Give the product a short description: ");
         DogLeash1.Description = Console.ReadLine();
 
@@ -61,34 +65,36 @@ while (userInput.ToLower() != "exit")
         DogLeash1.Quantity = int.Parse(Console.ReadLine());
 
         Console.WriteLine(JsonSerializer.Serialize(DogLeash1));
-    }
-    Console.WriteLine("Press 1 to add a product");
-    Console.WriteLine("Type exit to quit");
-    userInput = Console.ReadLine();
 
+
+    }
 
 
 }
 
-     
+
+Console.WriteLine("Type exit to quit");
+userInput = Console.ReadLine();
+
+
 
 
 public class Product
 {
-    public string Name;
-    public decimal Price;
-    public int Quantity;
-    public string Description;
+    public string Name { get; set; }
+    public decimal Price { get; set; }
+    public int Quantity { get; set; }
+    public string Description { get; set; }
 }
 public class CatFood : Product
 {
-    public double WeightPounds;
-    public bool KittenFood;
+    public double WeightPounds { get; set; }
+    public bool KittenFood { get; set; }
 }
 public class DogLeash : Product
 {
-    public int LengthInches;
-    public string Material;
+    public int LengthInches { get; set; }
+    public string Material { get; set; }
 }
 
 public class ProductLogic
@@ -102,7 +108,8 @@ public class ProductLogic
         _products = new List<Product>();
         _DogLeash1 = new Dictionary<string, DogLeash>();  
         _CatFood1 = new Dictionary<string, CatFood>();
-        }
+        
+    }
     public void AddProduct(Product product)
     {
         if (product is DogLeash)
@@ -115,18 +122,18 @@ public class ProductLogic
         }
         _products.Add(product);
     }
+    public List<Product> GetAllProducts()
+    {
+        return _products;
+    }
     public DogLeash GetDogLeashByName(string name)
     {
         return _DogLeash1[name];
     }
-    public List<Product> GetAllProducts() 
-    {
-        return _products;
-    }
+   
     
 
 
 
 }
-
 
